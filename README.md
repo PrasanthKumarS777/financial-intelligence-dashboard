@@ -143,7 +143,7 @@ The dashboard logo features a stunning floating ₹ symbol that includes:
 ## 🎬 Demo
 
 ### Live Application
-🌐 **[View Live Demo](https://financehub.vercel.app)**
+🌐 **[View Live Demo](https://financehub-phi.vercel.app)**
 
 ### Key Screens
 
@@ -881,3 +881,4 @@ As someone passionate about finance and technology, I wanted to create a tool th
 © 2026 Prasanth Kumar Sahu. All rights reserved.
 
 </div>
+
