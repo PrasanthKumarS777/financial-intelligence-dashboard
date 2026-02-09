@@ -3,19 +3,21 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 // Your web app's Firebase configuration
-// Replace these with your actual Firebase config
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyDGq_T968_J-pjNx2xSxYjmLowOrzYvSVI",
+  authDomain: "financehub-6d61a.firebaseapp.com",
+  projectId: "financehub-6d61a",
+  storageBucket: "financehub-6d61a.firebasestorage.app",
+  messagingSenderId: "220264093983",
+  appId: "1:220264093983:web:6f5c01e4ce19777ec04f82a",
+  measurementId: "G-WGK45DBFDR"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-// Initialize services
+// Initialize Firebase Authentication and get a reference to the service
 export const auth = getAuth(app);
+
+// Initialize Cloud Firestore and get a reference to the service
 export const db = getFirestore(app);

@@ -15,9 +15,9 @@ import { collection, query, onSnapshot, orderBy, limit } from 'firebase/firestor
 import { auth, db } from './firebase';
 import './App.css';
 import CustomCursor from './components/CustomCursor';
-import RotatingCube from './components/RotatingCube';
 import Auth from './components/Auth';
 import DataEntryModal from './components/DataEntryModal';
+import FloatingRupee from './components/FloatingRupee';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -212,12 +212,12 @@ function App() {
       
       {/* Sidebar */}
       <div className="sidebar">
-        {/* Logo with Rotating Cube */}
+        {/* Logo with Floating Rupee */}
         <div className="logo">
-          <TrendingUp className="logo-icon" size={32} />
+          <TrendingUp className="logo-icon" size={30} />
           <h1>FINANCEHUB</h1>
-          <div className="logo-cube">
-            <RotatingCube />
+          <div className="logo-animation">
+            <FloatingRupee />
           </div>
         </div>
 
