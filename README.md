@@ -10,7 +10,7 @@
 [![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.x-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-[Live Demo](https://financehub.vercel.app) • [Report Bug](https://github.com/YOUR_USERNAME/financehub/issues) • [Request Feature](https://github.com/YOUR_USERNAME/financehub/issues)
+[Live Demo](https://financehub-phi.vercel.app) • [Report Bug](https://github.com/YOUR_USERNAME/financehub/issues) • [Request Feature](https://github.com/YOUR_USERNAME/financehub/issues)
 
 ![FinanceHub Dashboard](https://via.placeholder.com/800x400/1a1a1a/dc2626?text=FinanceHub+Dashboard)
 
@@ -881,4 +881,5 @@ As someone passionate about finance and technology, I wanted to create a tool th
 © 2026 Prasanth Kumar Sahu. All rights reserved.
 
 </div>
+
 
